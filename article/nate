@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Послание для Натальи 💖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffafd7 0%, #ffe4b5 100%);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #c2185b;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: rgba(255,255,255,0.85);
+            border-radius: 25px;
+            box-shadow: 0 4px 16px rgba(220,20,60,0.15);
+            padding: 30px;
+            text-align: center;
+        }
+        .hearts {
+            font-size: 2.5em;
+            margin: 15px 0;
+            animation: floatHearts 2s infinite alternate ease-in-out;
+        }
+        @keyframes floatHearts { 0% { opacity:0.7; transform: translateY(-10px);}
+            100% { opacity:1; transform: translateY(10px);} }
+        .art {
+            margin: 15px 0 5px 0;
+        }
+        .horse, .watermelon {
+            vertical-align: middle;
+            margin: 0 7px;
+            height: 54px;
+        }
+        .watermelon {
+            border-radius: 50%;
+            box-shadow: 0 2px 8px #c3e35c77;
+        }
+        .message {
+            font-size: 1.5em;
+            margin: 28px 0 17px 0;
+        }
+        .telegram-link {
+            font-size: 1.25em;
+            text-decoration: none;
+            color: #43a047;
+            border-bottom: 2px dashed #d500f9;
+            margin-top: 10px;
+            transition: color 0.2s;
+        }
+        .telegram-link:hover {
+            color: #d500f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts">❤️ 💕 💖 💗 💘 💓</div>
+        <div class="art">
+            <img src="https://cdn.pixabay.com/photo/2019/08/08/16/40/horse-4393949_1280.png" alt="horse" class="horse">
+            <img src="https://cdn.pixabay.com/photo/2014/12/21/23/57/watermelon-579521_1280.png" alt="watermelon" class="watermelon">
+            <img src="https://cdn.pixabay.com/photo/2019/08/08/16/40/horse-4393949_1280.png" alt="horse" class="horse">
+            <img src="https://cdn.pixabay.com/photo/2014/12/21/23/57/watermelon-579521_1280.png" alt="watermelon" class="watermelon">
+        </div>
+        <div class="message">
+            Натали, отдыхай и пришли Артему фоточки! 😊
+        </div>
+        <a href="https://t.me/afrrica" class="telegram-link" target="_blank">
+            Мой телеграм для фоточек
+        </a>
+        <div class="hearts">💞 🐎 🍉 💝 🍉 🐎 💞</div>
+    </div>
+</body>
+</html>
