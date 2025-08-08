@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Отдыхай, Натали! 🍉💗🐎</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(125deg, #ffe7f3 0%, #b9f2a0 100%);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #832b7a;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 650px;
+            margin: 38px auto;
+            background: rgba(255,255,255,0.90);
+            border-radius: 30px;
+            box-shadow: 0 8px 32px rgba(220,20,60,0.16), 0 2px 8px #b4ffd988;
+            padding: 38px 22px 28px 22px;
+            text-align: center;
+        }
+        .hearts {
+            font-size: 2.5em;
+            margin-bottom: 18px;
+            animation: floatHearts 1.6s infinite alternate ease-in-out;
+        }
+        @keyframes floatHearts {
+            0% {opacity: 0.7; transform: translateY(-12px);}
+            100% {opacity: 1; transform: translateY(8px);}
+        }
+        .art {
+            margin: 14px 0 25px 0;
+        }
+        .art img {
+            margin: 0 9px;
+            height: 58px;
+            vertical-align: middle;
+            border-radius: 17px;
+            background: #ffe4b5;
+            box-shadow: 0 2px 10px #c3e35c44;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0 0 12px 0;
+        }
+        .poem {
+            font-size: 1.23em;
+            line-height: 1.56;
+            color: #505548;
+            margin: 20px 0 27px 0;
+            padding: 16px;
+            border-radius: 20px;
+            background: linear-gradient(110deg, #fff9e4 65%, #e0ffd8 100%);
+        }
+        .message {
+            font-size: 1.28em;
+            color: #9c1d5c;
+            margin: 19px 0 13px 0;
+        }
+        .telegram-link {
+            display: inline-block;
+            font-size: 1.22em;
+            text-decoration: none;
+            color: #3d4b7b;
+            background: #b4ffd9;
+            padding: 8px 18px;
+            border-radius: 14px;
+            border-bottom: 2px dashed #c2185b;
+            box-shadow: 0 2px 8px #ffc6e577;
+            margin-top: 10px;
+            transition: color 0.18s, background 0.18s;
+        }
+        .telegram-link:hover {
+            color: #d500f9;
+            background: #fff8f8;
+        }
+        @media (max-width: 600px) {
+            .container { max-width: 98vw; padding: 8vw 3vw; }
+            .art img { height: 42px; }
+            .poem { font-size: 1.01em; padding: 0.8em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts">❤️ 💖 💗 💘 💕 💞</div>
+        <div class="art">
+            <img src="https://cdn.pixabay.com/photo/2019/08/08/16/40/horse-4393949_1280.png" alt="Лошадь">
+            <img src="https://cdn.pixabay.com/photo/2014/12/21/23/57/watermelon-579521_1280.png" alt="Арбуз">
+            <img src="https://cdn.pixabay.com/photo/2019/08/08/16/40/horse-4393949_1280.png" alt="Лошадь">
+            <img src="https://cdn.pixabay.com/photo/2014/12/21/23/57/watermelon-579521_1280.png" alt="Арбуз">
+        </div>
+        <h1>Натали, отдыхай! 🌷🐎🍉</h1>
+        <div class="poem">
+            Как лунный свет среди звёзд в тишине,<br>
+            Ты отдыхаешь — и мир пусть замрёт.<br>
+            Пусть скачут лошадки по светлой траве,<br>
+            А сердце поёт и в любви расцветёт.<br><br>
+            На солнце сияют весёлый арбуз,<br>
+            А рядом — улыбка твоя, как весна.<br>
+            Наполнись счастьем, забудь про нагруз,<br>
+            Отправь фоточки Артёму и пусть будет всегда<br>
+            <span style="color:#c2185b;font-weight:bold;">Улыбка твоя и покой у тебя!</span>
+        </div>
+        <div class="message">
+            Натали, отдыхай и пришли Артему фоточки! 😊
+        </div>
+        <a href="https://t.me/afrrica" class="telegram-link" target="_blank">
+            Мой телеграм для фоточек 💌
+        </a>
+        <div class="hearts">💝 🍉 🐎 💞 🍉 🐎 💖</div>
+    </div>
+</body>
+</html>
